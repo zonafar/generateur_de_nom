@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
         page = GeneratorPage();
         break;
       case 1:
-        page = FavoritePage();
+        page = FavoritesPage();
         break;
       case 2:
         page = Placeholder();
