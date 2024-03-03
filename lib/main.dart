@@ -64,9 +64,9 @@ class _MyHomePageState extends State<MyHomePage> {
       case 1:
         page = FavoritesPage();
         break;
-      case 2:
-        page = Placeholder();
-        break;
+      // case 2:
+      //   page = Placeholder();
+      //   break;
       default:
         throw UnimplementedError('no widget for $selectedIndex');
     }
@@ -87,10 +87,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       icon: Icon(Icons.favorite),
                       label: Text('Favorites'),
                     ),
-                    NavigationRailDestination(
-                      icon: Icon(Icons.apps),
-                      label: Text('About'),
-                    ),
+                    // NavigationRailDestination(
+                    //   icon: Icon(Icons.apps),
+                    //   label: Text('About'),
+                    // ),
                   ],
                   selectedIndex: selectedIndex,
                   onDestinationSelected: (value) {
